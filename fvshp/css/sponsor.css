@@ -1,0 +1,18 @@
+.sponsor-logo img{
+  width: 150px;
+  height:150px;
+  border-radius: 50%;
+  border: 2px red solid;
+}
+
+.sponsor-logo{
+  display: inline-block;
+}
+.sponsor-container{
+  width:50%;
+  float: left;
+}
+.sponsor-description{
+  display: inline-block;
+  margin:5px 20px;
+}

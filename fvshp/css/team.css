@@ -1,0 +1,13 @@
+.team-item{
+  width: 50%;
+  float:left;
+}
+
+.team-item img{
+  width: 320px;
+  height: 200px;
+}
+
+.team-item h2{
+  margin: auto;
+}
