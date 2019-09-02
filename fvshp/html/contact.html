@@ -3,8 +3,9 @@
 
 <head>
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/contact.css">
   <meta charset="utf-8">
-  <title>悔しイキ </title>
+  <title>FivenessEsports</title>
 </head>
 
 <body>
@@ -48,18 +49,17 @@
           <h2>お問い合わせ</h2>
         </div>
         <div class="contact-description">
-          <p>今ならお問い合わせはここ！</p>
-          <p>(しなさい)</p>
+          <p>お問い合わせはこちらから</p>
         </div>
-        <form method="post" action="mailto:yujisamurai0@gmail.com">
-            <p>お名前は？</p>
-            <input type="text" name="name" size="30" maxlength="30" value="サンプル">
-            <p>君かわいいねメアド教えてよ</p>
-            <input type="text" name="email" size="30" maxlength="30" value="サンプル">
-            <p>んでなんでお問い合わせしようと思ったの？</p>
-            <textarea name="textarea" rows="8" cols="80"></textarea>
-            <p></p>
-            <input type="submit" name="chinchin" value="送信"><input type="reset" name="manman" value="リセット">
+        <form name="mainForm" method="post" action="../mailform/send.cgi">
+            <p>お名前</p>
+            <input type="text" name="user_name" size="30" maxlength="30" placeholder="name">
+            <p>メールアドレス</p>
+            <input type="email" name="user_email" size="30" maxlength="30" placeholder="info@example.com">
+            <p>お問い合わせ内容</p>
+            <textarea name="user_content" rows="8" cols="80"></textarea>
+            <br>
+            <input type="submit" name="chinchin" value="送信" class="wakaru"><input type="reset" name="manman" value="リセット" class="wakaru">
         </form>
       </div>
     </div>
@@ -75,28 +75,34 @@
       <div class="fvs-hpmap">
         <ul>
           <li><h3>FivenessEsports</h3></li>
-          <li><a href="fvs.html">TOP</a></li>
-          <li><a href="html/team.html">TEAM</a></li>
-          <li><a href="html/sponsor.html">SPONSOR</a></li>
-          <li><a href="html/contact.html">CONTACT</a></li>
+          <li><a href="../fvs.html">TOP</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="sponsor.html">SPONSOR</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li> <br> </li>
+          <li> <br> </li>
         </ul>
       </div>
       <div class="fvs-hpmap">
         <ul>
-          <li><h3>SITE LINKS</h3></li>
-          <li><a href="#">R6S A-TEAM</a></li>
-          <li><a href="#">R6S B-TESM</a></li>
-          <li><a href="#">FORTNITE</a></li>
-          <li><a href="#">wakaran</a></li>
+          <li><h3>TEAM LINKS</h3></li>
+          <li><a href="siege a.html">R6S A-TEAM</a></li>
+          <li><a href="siege b.html">R6S B-TEAM</a></li>
+          <li><a href="fotona.html">FORTNITE</a></li>
+          <li><a href="stremar.html">STREAMER</a></li>
+          <li><a href="pubg.html">PUBG</a></li>
+          <li><a href="other.html">OTHER</a></li>
         </ul>
       </div>
       <div class="fvs-hpmap">
         <ul>
           <li><h3>FOLLOW US</h3></li>
-          <li><a href="#">twitter</a></li>
-          <li><a href="#">youtube</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">FaceBook</a></li>
+          <li><a href="https://twitter.com/FivenessEsports?s=17">TWITTER</a></li>
+          <li><a href="https://m.youtube.com/channel/UCqexaJ-1Yn61wvFquEjri2g?view_as=subscriber">YOUTUBE</a></li>
+          <li> <br> </li>
+          <li> <br> </li>
+          <li> <br> </li>
+          <li> <br> </li>
         </ul>
       </div>
     </div>

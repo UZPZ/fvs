@@ -135,16 +135,23 @@ nav a:hover {
 }
 
 .fvs-tittle{
-  display: inline-block;
+  display: none;
 }
 
 .fvs-hpmap{
   display: inline-block;
+ margin: 15px 15px;
+
 }
+
 
 .fvs-hpmap a{
   color: #605e5e;
   text-decoration: none;
+}
+.fvs-hpmap ul{
+
+    padding: 0px;
 }
 
 hr {
