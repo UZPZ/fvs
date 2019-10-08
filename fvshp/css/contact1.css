@@ -1,0 +1,20 @@
+.main-container{
+width: 60%;
+}
+.left-container{
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+.twitter-container{
+  width: 50%;
+  margin: 0;
+  float: left;
+}
+
+.twitter-icon img{
+  opacity: 0.5;
+}
+.twitter-icon:hover img{
+  opacity: 0.9;
+}

@@ -10,18 +10,24 @@
   display: inline-block;
 }
 .member-icon img{
+
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 2px #ff0000 solid;
 }
+
 .member-description{
   width: 40%;
   display: inline-block;
 }
 .member-description img{
+  opacity: 0.5;
   width: 30px;
   height: 30px;
+}
+.member-description img:hover{
+  opacity: 0.9;
 }
 .member-description a{
   text-decoration: none;

@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/team.css">
+  <link rel="stylesheet" href="../css/contact.css">
   <meta charset="utf-8">
   <title>FivenessEsports</title>
 </head>
@@ -44,47 +44,25 @@
   </div>
   <div class="main">
     <div class="main-container">
-      <div class="team-container">
-        <div class="team-item">
-          <a href="siege a.html">
-            <img src="../img/rainbowlogo.png" alt="NO IMAGE">
-          </a>
-          <h2>RAINBOWSIXSIEGE A-TEAM</h2>
+      <div class="contact-container">
+        <div class="contact-tittle">
+          <h2>お問い合わせ</h2>
         </div>
-        <div class="team-item">
-          <a href="siege b.html">
-            <img src="../img/rainbowlogo.png" alt="NO IMAGE">
-          </a>
-          <h2>RAINBOWSIXSIEGE B-TEAM</h2>
+        <div class="contact-description">
+          <p>お問い合わせはこちらから</p>
         </div>
-        <div class="team-item">
-          <a href="fotona.html">
-            <img src="../img/fortnitelogo.png" alt="NO IMAGE">
-          </a>
-          <h2>フォートナイト</h2>
-        </div>
-        <div class="team-item">
-          <a href="stremar.html">
-            <img src="../img/streamer.png" alt="NO IMAGE">
-          </a>
-          <h2>ストリーマー</h2>
-        </div>
-        <div class="team-item">
-          <a href="pubg.html">
-            <img src="../img/pubglogo.png" alt="NO IMAGE">
-          </a>
-          <h2>PUBG</h2>
-        </div>
-        <div class="team-item">
-          <a href="other.html">
-            <img src="../img/other.png" alt="NO IMAGE">
-          </a>
-          <h2>OTHER</h2>
-        </div>
-        </div>
+        <form name="mainForm" method="post" action="../mailform/send.cgi">
+            <p>お名前</p>
+            <input type="text" name="user_name" size="30" maxlength="30" placeholder="name">
+            <p>メールアドレス</p>
+            <input type="email" name="user_email" size="30" maxlength="30" placeholder="info@example.com">
+            <p>お問い合わせ内容</p>
+            <textarea name="user_content" rows="8" cols="80"></textarea>
+            <br>
+            <input type="submit" name="chinchin" value="送信" class="wakaru" ><input type="reset" name="manman" value="リセット" class="wakaru">
+        </form>
       </div>
     </div>
-  </div>
   </div>
   <div class="footer">
     <hr class="line-b">

@@ -8,19 +8,28 @@
 .sponsor-logo{
   display: inline-block;
 }
+.sponsor-item{
+
+}
 .sponsor-container{
-  height: 176px;
+
   width:50%;
   float: left;
 }
 .sponsor-description{
   display: inline-block;
-  margin:5px 20px;
+  margin:5px 20px ;
 }
 .sponsor-url a{
   text-decoration: none;
   color: #5e5e5e;
 }
 .sponsor-text p{
-  margin: 5px;
+  margin: 5px 0px ;
+}
+.miyazakie{
+  font-size: 13px;
+}
+#miyazaki-esports{
+  
 }
