@@ -24,6 +24,10 @@
   text-decoration: none;
   color: #5e5e5e;
 }
+.sponsor-url a:hover{
+  color:#eb0000;
+  border-bottom: 1px solid #605e5e;
+}
 .sponsor-text p{
   margin: 5px 0px ;
 }
@@ -31,5 +35,5 @@
   font-size: 13px;
 }
 #miyazaki-esports{
-  
+
 }

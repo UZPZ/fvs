@@ -110,8 +110,8 @@ nav a.current {
 }
 
 nav a:hover {
-  color: #F7CB4D;
-  border-bottom: 2px solid #F7CB4D;
+  color: #eb0000;
+  border-bottom: 1px solid #605e5e;
 }
 
 .main-container{
@@ -167,4 +167,11 @@ hr {
 .main {
   margin: 10px 10px;
   text-align: center;
+}
+.fvs-hpmap{
+  width: 10%;
+}
+.fvs-hpmap a:hover{
+  color: #eb0000;
+  border-bottom: 1px solid #605e5e;
 }
