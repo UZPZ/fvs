@@ -7,8 +7,9 @@
 .fvs-description{
 
   display: inline-block;
-  
+
 }
 .fvs-description h1{
   text-decoration: underline;
+  text-decoration-color: #eb0000;
 }
